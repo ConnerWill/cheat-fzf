@@ -3,7 +3,7 @@
 <img width="480" height="320" src="/media/cht-fzf-banner.png">
 --->
 
-### **Browse UNIX/Linux Command Cheatsheets using fzf**
+### **cheat-fzf**
 > *Browse UNIX/Linux Command Cheatsheets from [cht.sh](https://cht.sh)|[cheat.sh](https://cheat.sh) using [fzf](https://github.com/junegunn/fzf)*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/ConnerWill/cheat-fzf)
