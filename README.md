@@ -133,7 +133,6 @@ Visit [cht.sh](https://cht.sh/:help) for more information.
 
 > *I suggest reading the [fzf](https://github.com/junegunn/fzf) and [cheat.sh](https://github.com/chubin/cheat.sh) documentation if you want to learn more*
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Other
