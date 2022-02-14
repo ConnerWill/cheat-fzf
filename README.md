@@ -137,7 +137,6 @@ Visit [cht.sh](https://cht.sh/:help) for more information.
 
 # Other
 
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
