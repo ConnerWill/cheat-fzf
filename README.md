@@ -103,14 +103,14 @@ Running the command with '*special flags*' will display those pages
 
 *eg.*   Run `cht-fzf` with the search query of '*:list*' will open all of the available cheetsheets in fzf. *(favorite)*
 > *Example of running the script with input searching for "fzf"*
-```sh
+```console
 chtfzf fzf
 ```
 
 *eg.*
-Run `chtfzf` with the search query of '*:list*' will open all of the available cheetsheets in fzf. *(favorite)*
+Run `chtfzf` with the search query of '*`:list`*' will open all of the available cheetsheets in fzf. *(favorite)*
 
-```sh
+```console
 chtfzf :list
 ```
 ---
