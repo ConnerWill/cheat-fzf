@@ -157,15 +157,10 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 </details>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+[fzf](https://github.com/junegunn/fzf)
 
-[fzf]:
-    (https://github.com/junegunn/fzf)
+[cheat.sh](https://github.com/chubin/cheat.sh)
 
-[cheat.sh]:
-    (https://github.com/chubin/cheat.sh)
-
-[cht.sh]:
-    (https://cht.sh)
+[cht.sh](https://cht.sh)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
