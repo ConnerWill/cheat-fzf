@@ -20,7 +20,9 @@
 # Table of Contents
 <details>
     <summary>Click to expand table of contents</summary>
+
   ---
+
 * [<strong>cheat-fzf</strong>](https://github.com/ConnerWill/cheat-fzf)
 * [Table of Contents](#table-of-contents)
 * [Overview](#overview)
@@ -31,7 +33,9 @@
 * [Usage](#usage)
 * [Other](#other)
    * [Contributing](#contributing)
+
   ---
+
   <p align=right>(<a href=#top>back to top</a>)</p>
 </details>
 
