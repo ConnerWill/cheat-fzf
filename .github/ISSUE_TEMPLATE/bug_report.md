@@ -7,10 +7,12 @@ assignees: ConnerWill
 
 ---
 
+### *Fill in the fields below*
+
+
 **Describe the bug**
 A clear and concise description of what you think the bug is. *(It may just be a "feature")*
 
-* *Fill in the fields below*
 
 **To Reproduce**
 Steps to reproduce the behavior:
