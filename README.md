@@ -91,6 +91,7 @@ cht-fzf
 ```
 cheat-fzf
 ```
+---
 
 If the script is run without a search query, and it will display the main screen of [cht.sh](https://cht.sh).
 
@@ -98,9 +99,9 @@ Running the command with a search query is will open the cheetsheet for that que
 
 Running the command with '*special flags*' will display those pages
 
-*eg.*
+---
 
-Run `cht-fzf` with the search query of '*:list*' will open all of the available cheetsheets in fzf. *(favorite)*
+*eg.*   Run `cht-fzf` with the search query of '*:list*' will open all of the available cheetsheets in fzf. *(favorite)*
 > *Example of running the script with input searching for "fzf"*
 ```sh
 chtfzf fzf
@@ -112,6 +113,7 @@ Run `chtfzf` with the search query of '*:list*' will open all of the available c
 ```sh
 chtfzf :list
 ```
+---
 
 Here is a list of some of the available '*special pages*'.
 Visit [cht.sh](https://cht.sh/:help) for more information.
