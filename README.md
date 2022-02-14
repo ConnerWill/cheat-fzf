@@ -82,13 +82,13 @@
 
 Once cht-fzf is sourced, you can start it by running either `cheat-fzf`, `cht-fzf`, or `chtfzf`
 
-```
+```console
 chtfzf
 ```
-```
+```console
 cht-fzf
 ```
-```
+```console
 cheat-fzf
 ```
 ---
