@@ -56,6 +56,7 @@
 ## Dependencies
 
 *   **fzf**
+
 *Make sure you have [fzf](https://github.com/junegunn/fzf) installed as that is the meat and potatoes of this script.*
 
 *   **curl**
@@ -81,13 +82,21 @@
 
 Once cht-fzf is sourced, you can start it by running either `cheat-fzf`, `cht-fzf`, or `chtfzf`
 
-https://cht.sh/
+```
+chtfzf
+```
+```
+cht-fzf
+```
+```
+cheat-fzf
+```
 
-It can be either ran without any search query, and it will display the main screen of [cht.sh](https://cht.sh).
+If the script is run without a search query, and it will display the main screen of [cht.sh](https://cht.sh).
 
 Running the command with a search query is will open the cheetsheet for that query.
 
-Running the command with 'special flags' will display those pages
+Running the command with '*special flags*' will display those pages
 
 *eg.*
 
@@ -104,9 +113,10 @@ Run `chtfzf` with the search query of '*:list*' will open all of the available c
 chtfzf :list
 ```
 
-Here is a list of some of the available '*special pages*'. Visit [cht.sh](https://cht.sh/:help) for more information.
+Here is a list of some of the available '*special pages*'.
+Visit [cht.sh](https://cht.sh/:help) for more information.
 
-```sh
+```txt
     Special pages:
 
         :help               this page
@@ -118,8 +128,6 @@ Here is a list of some of the available '*special pages*'. Visit [cht.sh](https:
         :styles-demo        show color styles usage examples
         :random             fetches a random cheat sheet
 ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 > *I suggest reading the [fzf](https://github.com/junegunn/fzf) and [cheat.sh](https://github.com/chubin/cheat.sh) documentation if you want to learn more*
 
