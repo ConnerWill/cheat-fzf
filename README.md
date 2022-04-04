@@ -58,7 +58,7 @@
 *   **fzf**
 *   **curl**
 
-*Make sure you have [fzf](https://github.com/junegunn/fzf) installed as that is the meat and potatoes of this script.*
+*Make sure you have [fzf](https://github.com/junegunn/fzf) installed as it is the meat and potatoes of this script.*
 
 ## Setup
 
