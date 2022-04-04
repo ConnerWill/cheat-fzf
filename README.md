@@ -64,14 +64,14 @@
 
 1. *Clone* this repository
 
-  ```console
+  ```shell
   git clone https://github.com/ConnerWill/cheat-fzf.git
   ```
 2. To source this script, add the line below to your `.zshrc`|`.bashrc`|*etc...*
 *Replace the example path to the location of **cheat-fzf***
 
 >   zsh
-  ```console
+  ```shell
     [[ -f "${ZDOTDIR:-$HOME}/plugins/cheat-fzf/cht-fzf.sh" ]] && source "${ZDOTDIR:-$HOME}/plugins/cheat-fzf/cht-fzf.sh"
   ```
 
@@ -81,13 +81,13 @@
 
 Once cht-fzf is sourced, you can start it by running either `cheat-fzf`, `cht-fzf`, or `chtfzf`
 
-```console
+```shell
 chtfzf
 ```
-```console
+```shell
 cht-fzf
 ```
-```console
+```shell
 cheat-fzf
 ```
 ---
@@ -102,14 +102,14 @@ Running the command with '*special flags*' will display those pages
 
 *eg.*   Run `cht-fzf` with the search query of '*:list*' will open all of the available cheetsheets in fzf. *(favorite)*
 > *Example of running the script with input searching for "fzf"*
-```console
+```shell
 chtfzf fzf
 ```
 
 *eg.*
 Run `chtfzf` with the search query of '*`:list`*' will open all of the available cheetsheets in fzf. *(favorite)*
 
-```console
+```shell
 chtfzf :list
 ```
 ---
