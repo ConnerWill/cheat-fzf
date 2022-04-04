@@ -73,7 +73,7 @@
 
 >   zsh
   ```console
-    [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/cheat-fzf/cht-fzf.sh" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/cheat-fzf/cht-fzf.sh"
+    [[ -f "${ZDOTDIR:-$HOME}/plugins/cheat-fzf/cht-fzf.sh" ]] && source "${ZDOTDIR:-$HOME}/plugins/cheat-fzf/cht-fzf.sh"
   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
