@@ -58,13 +58,13 @@
 *   **fzf**
 *   **curl**
 
-*Make sure you have [fzf](https://github.com/junegunn/fzf) installed as it is the meat and potatoes of this script.*
+*Make [fzf](https://github.com/junegunn/fzf) is installed as it is the meat and potatoes of this script.*
 
 ## Setup
 
 1. *Clone* this repository
 
-  ```shell-script
+  ```console
   git clone https://github.com/ConnerWill/cheat-fzf.git
   ```
 
@@ -101,21 +101,18 @@ Running the command with '*special flags*' will display those pages
 
 ---
 
-*eg.*   Run `cht-fzf` with the search query of '*:list*' will open all of the available cheetsheets in fzf. *(favorite)*
-> *Example of running the script with input searching for "fzf"*
+> Example of running *`cht-fzf`* with the search query of *'fzf'* will open available cheetsheets for *'fzf'*. 
 ```shell-script
 chtfzf fzf
 ```
 
-*eg.*
-Run `chtfzf` with the search query of '*`:list`*' will open all of the available cheetsheets in fzf. *(personal favorite)*
-
+> Example of running *`cht-fzf`* with the search query of '*`:list`*' will open all of the available cheetsheets in fzf. *(personal favorite)*
 ```shell-script
 chtfzf :list
 ```
 ---
 
-Here is a list of some of the available '*special pages*'.
+List of some of the available '*special pages*' in `cht.sh`
 Visit [cht.sh](https://cht.sh/:help) for more information.
 
 ```yml
@@ -131,7 +128,7 @@ Visit [cht.sh](https://cht.sh/:help) for more information.
         :random             fetches a random cheat sheet
 ```
 
-> *I suggest reading the [fzf](https://github.com/junegunn/fzf) and [cheat.sh](https://github.com/chubin/cheat.sh) documentation if you want to learn more*
+> *I suggest reading the [`fzf`](https://github.com/junegunn/fzf) and [`cheat.sh`](https://github.com/chubin/cheat.sh) documentation if you would like more information about those programs specifically*
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
