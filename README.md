@@ -67,7 +67,7 @@
   ```gitattributes
   git clone https://github.com/ConnerWill/cheat-fzf.git
   ```
-
+  
 2. To source this script, add the line below to your `.zshrc`|`.bashrc`|*etc...*
 *Replace the example path to the location of **cheat-fzf***
 
