@@ -118,7 +118,7 @@ chtfzf :list
 Here is a list of some of the available '*special pages*'.
 Visit [cht.sh](https://cht.sh/:help) for more information.
 
-```less-css
+```yml
     Special pages:
 
         :help               this page
