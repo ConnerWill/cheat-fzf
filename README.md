@@ -64,7 +64,7 @@
 
 1. *Clone* this repository
 
-  ```console
+  ```gitattributes
   git clone https://github.com/ConnerWill/cheat-fzf.git
   ```
 
