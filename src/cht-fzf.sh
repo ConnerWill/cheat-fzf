@@ -57,7 +57,8 @@ EOS
 
 function chtfzf() {
    search_query="$1"
-   [[ -z "$search_query" ]] && search_query=":list"
+   [[ -z "$search_query" ]] \
+    && search_query=":list"
 	for arg in "${@}"; do
 		case "${arg}" in
 		-h | --help)
@@ -80,13 +81,13 @@ function search_cht() {
 
 function _fzf() {
 	fzf </dev/stdin \
-        --ansi \
+    --ansi \
 		--multi \
-		--cycle \
 		--keep-right \
 		--header "${KEYBINDINGS}" \
 		--header-first \
-    --no-mouse \
+        --no-mouse \
+        --preview-window "right:75%,wrap" \
 		--preview "${search_cht_cmd} {}" \
 		--preview "curl --silent https://cht.sh/{}" \
 }
