@@ -43,14 +43,22 @@ EOS
 
 function _help() {
 	cat <<EOS
+========================================================
+
     NAME
+
         cht-fzf
+
     DESCRIPTION
+
         Browse command line cheatsheets with fzf on the command line
+
     USAGE
+
         chtfzf  KEYWORDS...
         chtfzf  -h|--help
         chtfzf  -V|--version
+
 ========================================================
 EOS
 }
@@ -79,17 +87,27 @@ function search_cht() {
     curl --silent "https://cht.sh/$search_query"
 }
 
-function _fzf() {
+function _fzf(){
 	fzf </dev/stdin \
     --ansi \
 		--multi \
 		--keep-right \
 		--header "${KEYBINDINGS}" \
 		--header-first \
-        --no-mouse \
-        --preview-window "right:75%,wrap" \
-		--preview "${search_cht_cmd} {}" \
-		--preview "curl --silent https://cht.sh/{}" \
+    --no-mouse \
+    --reverse \
+      --bind change:first \
+      --bind end:last \
+      --bind home:first \
+      --bind pgdn:half-page-down \
+      --bind pgup:half-page-up \
+      --bind shift-down:preview-half-page-down \
+      --bind alt-down:preview-page-down \
+      --bind shift-up:preview-half-page-up \
+      --bind alt-up:preview-page-up \
+      --preview-window "right:75%,wrap" \
+		  --preview "${search_cht_cmd} {}" \
+		  --preview "curl --silent https://cht.sh/{}" \
 }
 
 function list_chts(){
